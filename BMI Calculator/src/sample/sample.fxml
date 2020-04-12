@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="331.0" prefWidth="350.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox alignment="CENTER" prefHeight="331.0" prefWidth="339.0">
+         <children>
+            <TextField fx:id="WeightTextField" promptText="Enter your weight (kg)" />
+            <TextField fx:id="HeightTextField" promptText="Enter your height (m)" />
+            <Button fx:id="SubmitButton" alignment="CENTER" mnemonicParsing="false" text="Submit" textAlignment="CENTER" />
+            <Label fx:id="CategoryLabel" />
+         </children></VBox>
+   </children>
+</GridPane>
